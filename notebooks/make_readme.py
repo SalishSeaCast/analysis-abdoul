@@ -31,7 +31,7 @@ NBVIEWER = "https://nbviewer.org/github"
 GITHUB_ORG = "UBC-MOAD"
 REPO_NAME = "analysis-abdoul"
 DEFAULT_BRANCH_NAME = "main"
-CREATOR_NAME = "awtall"
+CREATOR_NAME = "atall"
 TITLE_PATTERN = re.compile("#{1,6} ?")
 
 
