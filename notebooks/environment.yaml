@@ -50,6 +50,7 @@ dependencies:
   - tqdm
   - xarray
   - cdo
+  - nco
   
   - pip:
     - angles
