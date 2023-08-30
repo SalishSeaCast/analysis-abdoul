@@ -51,6 +51,7 @@ dependencies:
   - xarray
   - cdo
   - nco
+  - sqlalchemy
   
   - pip:
     - angles
