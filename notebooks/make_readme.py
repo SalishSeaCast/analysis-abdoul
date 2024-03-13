@@ -28,10 +28,10 @@ import re
 
 
 NBVIEWER = "https://nbviewer.org/github"
-GITHUB_ORG = "UBC-MOAD"
+GITHUB_ORG = "SalishSeaCast"
 REPO_NAME = "analysis-abdoul"
 DEFAULT_BRANCH_NAME = "main"
-CREATOR_NAME = "atall"
+CREATOR_NAME = "Abdoul Tall"
 TITLE_PATTERN = re.compile("#{1,6} ?")
 
 

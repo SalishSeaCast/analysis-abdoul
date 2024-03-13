@@ -15,11 +15,12 @@ name: analysis-abdoul
 
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 
 dependencies:
   - arrow
   - bottleneck
+  - cartopy
   - cliff
   - cmocean
   - coverage
@@ -36,7 +37,9 @@ dependencies:
   - numpy
   - openpyxl
   - pandas
+  - pillow
   - pip
+  - pyproj
   - pytest
   - python=3
   - pytz
@@ -45,13 +48,11 @@ dependencies:
   - requests
   - retrying
   - scipy
+  - shapely
   - sphinx
   - sphinx_rtd_theme
   - tqdm
   - xarray
-  - cdo
-  - nco
-  - sqlalchemy
   
   - pip:
     - angles

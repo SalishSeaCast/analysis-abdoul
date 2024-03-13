@@ -3,7 +3,7 @@ SalishSeaCast Analysis
 *********************************************
 :License: Apache License, Version 2.0
 
-This is a collection of analyses by abdoul
+This is a collection of analyses by Abdoul Tall
 
 of the SalishSeaCast model
 .
