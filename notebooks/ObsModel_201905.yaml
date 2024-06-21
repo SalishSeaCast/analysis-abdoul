@@ -1,0 +1,57 @@
+# Yaml file for 201905 series of comparison script runs
+
+PATH:
+  /results2/SalishSea/nowcast-green.201905
+
+filebase:
+  201905R
+
+outdir:
+  /ocean/atall/MOAD/ObsModel/202111
+
+flen:    # number of days per file
+  1
+
+filemap:
+  nitrate:
+     ptrc_T
+  silicon:
+     ptrc_T
+  ammonium:
+     ptrc_T
+  diatoms:
+     ptrc_T
+  flagellates:
+     ptrc_T
+  dissolved_oxygen:
+     carp_T
+  vosaline:
+     grid_T
+  votemper:
+     grid_T
+
+fdict:     # time resolution in hours
+  ptrc_T:
+    1
+  grid_T:
+    1
+  carp_T:
+    1
+
+namfmt:
+  nowcast
+
+csvdir:
+  /data/eolson/results/MEOPAR/oldDBs/
+
+ctddir:
+  /ocean/shared/SalishSeaCastData/DFO/CTD/
+
+ctddir2:
+  /data/rbeutel/obs/
+
+botdir:
+  /ocean/shared/SalishSeaCastData/DFO/BOT/
+
+meshPath:
+  /ocean/atall/MOAD/grid/mesh_mask202108.nc
