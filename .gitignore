@@ -311,3 +311,6 @@ pre-commit-hook.sh
 *.iml
 out
 gen
+# pixi environments
+.pixi/*
+!.pixi/config.toml
